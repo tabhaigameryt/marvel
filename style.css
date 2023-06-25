@@ -1,0 +1,84 @@
+h1,h2{
+font-family:Broadway,Helvetica,sans-serif;
+text-align:center;
+color:red;
+font-size:26px;
+}
+h3{
+font-family:Harlow Solid;
+text-align:center;
+color:red;
+font-size:22px;
+}
+body {
+  font-family: bahnschrift, Helvetica, sans-serif;
+  font-size:18px;
+  text-align:center;
+  margin: 0 auto;
+  width:960px;
+}
+a:link {
+	text-decoration:none;
+	color:red;
+}
+a:visited {
+color:blue;
+}
+a:hover {
+color:green;
+}
+nav ul {
+	list-style-type:none;
+	padding:0;
+}
+nav li {
+	display:inline;
+	float:left;
+}
+nav a:link{
+	background-color:blue;
+	color:red;
+	display:block;
+	width:240px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:visited{
+	background-color:red;
+	color:blue;
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover {
+	background-color:black;
+	color:white;
+}
+header{
+	background-color:black;
+	height:100px;
+	margin-bottom:70px;
+}
+header h1{
+	color:rgba(256,256,256,1);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+	text-align:left;
+	font-family:Broadway;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+footer {
+	margin: 40px;
+}
+footer nav a:link, footer nav a:visited{
+	color:gray;
+	text-decoration:none;
+	display:block;
+	width:200px;
+	text-align:center;
+	background-color:white;
+}
+footer nav a:hover{
+	color:black;
+}
